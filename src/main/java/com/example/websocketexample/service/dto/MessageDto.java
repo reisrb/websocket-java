@@ -1,4 +1,4 @@
-package com.example.websocketexample.domain;
+package com.example.websocketexample.service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

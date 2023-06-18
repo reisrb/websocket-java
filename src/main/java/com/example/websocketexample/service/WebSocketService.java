@@ -1,12 +1,10 @@
 package com.example.websocketexample.service;
 
+import com.example.websocketexample.service.dto.MessageDto;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
-
-import com.example.websocketexample.domain.MessageDto;
-
-import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
